@@ -13,7 +13,7 @@ import { useState } from 'react'
 
 export const WeatherApp = () => {
 
-    let apiKey = 'de87b55d70743a838c9fcebdb588db0e';
+    let apiKey = 'ENTER_YOUR_API_KEY_FROM_OPENWEATHERAPI';
 
     const[weatherData, setWeatherData] = useState({
         humidity: '', 
